@@ -18,3 +18,27 @@
 11-04-2019  19:15               810 pythondataarchive.txt
               10 File(s)          4,900 bytes
                3 Dir(s)   6,077,243,392 bytes free
+
+import os
+import shutil
+from zipfile import ZipFile
+from os import path
+from shutil import make_archive
+
+def main():
+# Check if file exists
+	if path.exists("guru99.txt"):
+# get the path to the file in the current directory
+	src = path.realpath("guru99.txt");
+# rename the original file
+	os.rename("career.guru99.txt","guru99.txt")
+# now put things into a ZIP archive
+	root_dir,tail = path.split(src)
+    shutil.make_archive("guru99 archive", "zip", root_dir)
+# more fine-grained control over ZIP files
+	with ZipFile("testguru99.zip","w") as newzip:
+	newzip.write("guru99.txt")
+	    newzip.write("guru99.txt.bak")
+if __name__== "__main__":
+	  main()
+

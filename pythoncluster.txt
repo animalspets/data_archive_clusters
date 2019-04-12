@@ -1,7 +1,7 @@
  Volume in drive C has no label.
  Volume Serial Number is D8A5-E423
 
- Directory of C:\Users\CHITTU\Desktop\Data_archive_clusters
+ Directory of C:\Users\Desktop\Data_archive_clusters
 
 11-04-2019  19:10    <DIR>          .
 11-04-2019  19:10    <DIR>          ..
@@ -15,3 +15,23 @@
 11-04-2019  19:10                 0 pythoncluster.txt
                7 File(s)          2,475 bytes
                3 Dir(s)   6,077,349,888 bytes free
+
+#  
+# read the data from the URL and print it
+#
+import urllib2
+
+def main():
+# open a connection to a URL using urllib2
+   webUrl = urllib2.urlopen("https://www.youtube.com/user/guru99com")
+  
+#get the result code and print it
+   print "result code: " + str(webUrl.getcode()) 
+  
+# read the data from the URL and print it
+   data = webUrl.read()
+   print data
+ 
+if __name__ == "__main__":
+  main()
+
