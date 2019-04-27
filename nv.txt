@@ -1,0 +1,41 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D8A5-E423
+
+ Directory of C:\Users\CHITTU\Desktop\Data_archive_clusters
+
+27-04-2019  18:41    <DIR>          .
+27-04-2019  18:41    <DIR>          ..
+12-04-2019  18:55             1,890 archive.sh
+12-04-2019  18:56             2,003 archivebash.sh
+12-04-2019  18:56             2,055 archivebourne.sh
+12-04-2019  18:55             1,947 archive_one.sh
+12-04-2019  18:56             5,789 fusion.java
+12-04-2019  19:05             4,490 jarchive.txt
+12-04-2019  19:05             4,547 jarchivecluster.txt
+12-04-2019  19:04             4,653 jarch_cluster.txt
+12-04-2019  19:05             4,598 jarch_one.txt
+12-04-2019  18:11             2,744 java.txt
+12-04-2019  18:13             4,753 javaarchive.java
+12-04-2019  18:13             3,828 javaarchive.txt
+12-04-2019  18:11             3,335 javaarchivecluster.txt
+12-04-2019  18:11             2,744 javaarchive_committed.txt
+12-04-2019  18:14             4,816 javaarchive_one.java
+12-04-2019  18:14             3,890 javaarchive_one.txt
+27-04-2019  18:37             1,979 javatest.txt
+12-04-2019  19:06    <DIR>          jcdb_nuclear_fusion
+12-04-2019  18:15             4,860 jcluster.java
+11-04-2019  19:09               643 meanstack.txt
+11-04-2019  19:30             1,228 mongodb.txt
+12-04-2019  19:06    <DIR>          mongodb_archive
+12-04-2019  18:15    <DIR>          mongodb_cluster
+12-04-2019  19:06    <DIR>          mongodb_image
+11-04-2019  19:31             1,285 nuclear_fusion.java
+12-04-2019  19:06    <DIR>          nuclear_fusion_merge
+27-04-2019  18:41                 0 nv.txt
+12-04-2019  18:19             1,643 pythonarch.py
+12-04-2019  18:22             2,231 pythoncluster.py
+12-04-2019  18:20             1,163 pythoncluster.txt
+12-04-2019  18:23             1,597 pythondataarchive.py
+12-04-2019  18:23             1,840 pythondataarchive.txt
+              27 File(s)         76,551 bytes
+               7 Dir(s)   8,726,773,760 bytes free
